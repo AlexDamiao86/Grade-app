@@ -1,1 +1,1 @@
-web: serve -s build && node -r dotenv/config
+web: node -r dotenv/config && serve -s build
