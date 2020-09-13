@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: process.env.APIURL,
+  baseURL: 'https://grade-api-alexmaia.herokuapp.com/',
   headers: {
     'Content-type': 'application/json',
   },
